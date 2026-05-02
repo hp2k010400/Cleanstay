@@ -1,14 +1,14 @@
 const tiers = [
   { size: "Studio", price: 65, detail: "Up to 2 hrs · All essentials included" },
-  { size: "1 Bedroom", price: 75, detail: "Up to 2.5 hrs · Linen change available" },
+  { size: "1 Bedroom", price: 75, detail: "Up to 2.5 hrs · Photo confirmation included" },
   { size: "2 Bedrooms", price: 95, detail: "Up to 3 hrs · Most popular", popular: true },
   { size: "3 Bedrooms", price: 120, detail: "Up to 4 hrs · Full turnover service" },
   { size: "4+ Bedrooms", price: 150, detail: "Up to 5 hrs · Custom quote available" },
 ];
 
 const addons = [
-  { label: "Linen service", price: "£15/set" },
-  { label: "Restock essentials", price: "£12/visit" },
+  { label: "Essentials restock", price: "£12/visit" },
+  { label: "Welcome pack", price: "£8/visit" },
   { label: "Same-day turnaround", price: "+£25" },
   { label: "August Fringe uplift", price: "+15%" },
 ];
