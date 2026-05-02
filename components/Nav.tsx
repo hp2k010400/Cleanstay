@@ -40,7 +40,7 @@ export default function Nav() {
               Contact
             </a>
             <a
-              href="https://wa.me/447700000000?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
+              href="https://wa.me/447763691050?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-navy-900 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-navy-800 transition-colors flex items-center gap-2"
@@ -74,7 +74,7 @@ export default function Nav() {
             <a href="#testimonials" onClick={() => setMenuOpen(false)} className="text-gray-600 font-medium px-2">Reviews</a>
             <a href="#contact" onClick={() => setMenuOpen(false)} className="text-gray-600 font-medium px-2">Contact</a>
             <a
-              href="https://wa.me/447700000000?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
+              href="https://wa.me/447763691050?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-navy-900 text-white px-5 py-3 rounded-lg font-semibold text-center"

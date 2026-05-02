@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm">
             <span>Edinburgh, Scotland</span>
             <a
-              href="https://wa.me/447700000000"
+              href="https://wa.me/447763691050"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"

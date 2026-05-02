@@ -27,7 +27,7 @@ export default function Hero() {
               Get a Free Quote
             </a>
             <a
-              href="https://wa.me/447700000000?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
+              href="https://wa.me/447763691050?text=Hi%20Cleanstay%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20Airbnb%20cleaning%20in%20Edinburgh."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto border-2 border-navy-900 text-navy-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-navy-50 transition-colors flex items-center justify-center gap-2"
