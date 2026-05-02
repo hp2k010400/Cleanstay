@@ -1,13 +1,13 @@
 export default function ReviewCTA() {
   return (
-    <section className="py-14 bg-green-900">
+    <section className="py-14 bg-navy-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
           <div>
             <h3 className="text-2xl font-extrabold text-white mb-2">
               Happy with your clean?
             </h3>
-            <p className="text-green-100 text-lg">
+            <p className="text-navy-100 text-lg">
               A quick Google review means the world to us — and helps other Edinburgh hosts find us.
             </p>
           </div>
@@ -15,7 +15,7 @@ export default function ReviewCTA() {
             href="https://g.page/r/REPLACE_WITH_YOUR_GOOGLE_REVIEW_LINK/review"
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 bg-white text-green-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors flex items-center gap-2 shadow-lg"
+            className="shrink-0 bg-white text-navy-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-navy-50 transition-colors flex items-center gap-2 shadow-lg"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>

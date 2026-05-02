@@ -30,12 +30,10 @@ export default function HowItWorks() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-          {/* Connector line — desktop only */}
-          <div className="hidden md:block absolute top-10 left-1/3 right-1/3 h-0.5 bg-green-100 z-0" />
-
+          <div className="hidden md:block absolute top-10 left-1/3 right-1/3 h-0.5 bg-navy-100 z-0" />
           {steps.map((step, i) => (
             <div key={i} className="relative bg-white rounded-2xl p-8 shadow-sm border border-gray-100 text-center z-10">
-              <div className="w-14 h-14 bg-green-900 rounded-2xl flex items-center justify-center mx-auto mb-5">
+              <div className="w-14 h-14 bg-navy-900 rounded-2xl flex items-center justify-center mx-auto mb-5">
                 <span className="text-white font-extrabold text-lg">{step.number}</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>

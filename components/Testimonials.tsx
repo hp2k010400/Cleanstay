@@ -3,24 +3,21 @@ const testimonials = [
     name: "Sarah M.",
     location: "New Town, Edinburgh",
     properties: "3 Airbnb properties",
-    quote:
-      "Cleanstay has completely transformed how I manage my properties. The turnarounds are always on time and my guests consistently mention how clean everything is. 5 stars every time.",
+    quote: "Cleanstay has completely transformed how I manage my properties. The turnarounds are always on time and my guests consistently mention how clean everything is. 5 stars every time.",
     rating: 5,
   },
   {
     name: "James R.",
     location: "Leith, Edinburgh",
     properties: "1 Airbnb property",
-    quote:
-      "I used to stress about every checkout. Now I just get a WhatsApp photo when it's done and that's it. Couldn't be easier. The cleaners are thorough and professional.",
+    quote: "I used to stress about every checkout. Now I just get a WhatsApp photo when it's done and that's it. Couldn't be easier. The cleaners are thorough and professional.",
     rating: 5,
   },
   {
     name: "Fiona T.",
     location: "Old Town, Edinburgh",
     properties: "2 Airbnb properties",
-    quote:
-      "During the Fringe I had back-to-back bookings every day. Cleanstay handled every single one without a hitch. Absolute lifesavers. I wouldn't trust anyone else.",
+    quote: "During the Fringe I had back-to-back bookings every day. Cleanstay handled every single one without a hitch. Absolute lifesavers. I wouldn't trust anyone else.",
     rating: 5,
   },
 ];
@@ -52,16 +49,13 @@ export default function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((t) => (
-            <div
-              key={t.name}
-              className="bg-gray-50 rounded-2xl p-7 border border-gray-100 flex flex-col gap-4"
-            >
+            <div key={t.name} className="bg-gray-50 rounded-2xl p-7 border border-gray-100 flex flex-col gap-4">
               <Stars count={t.rating} />
               <p className="text-gray-700 leading-relaxed italic">&ldquo;{t.quote}&rdquo;</p>
               <div className="mt-auto pt-4 border-t border-gray-200">
                 <p className="font-bold text-gray-900">{t.name}</p>
                 <p className="text-sm text-gray-500">{t.location}</p>
-                <p className="text-xs text-green-700 font-medium mt-0.5">{t.properties}</p>
+                <p className="text-xs text-navy-700 font-medium mt-0.5">{t.properties}</p>
               </div>
             </div>
           ))}

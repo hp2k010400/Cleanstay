@@ -45,7 +45,7 @@ export default function TrustBar() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {trusts.map((item) => (
             <div key={item.title} className="flex flex-col items-center text-center gap-3">
-              <div className="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center text-green-900">
+              <div className="w-14 h-14 bg-navy-50 rounded-2xl flex items-center justify-center text-navy-900">
                 {item.icon}
               </div>
               <h3 className="font-bold text-gray-900">{item.title}</h3>

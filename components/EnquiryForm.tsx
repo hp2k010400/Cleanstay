@@ -40,8 +40,8 @@ export default function EnquiryForm() {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 sm:p-10">
           {submitted ? (
             <div className="text-center py-10">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-navy-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
@@ -60,7 +60,7 @@ export default function EnquiryForm() {
                     name="name"
                     required
                     placeholder="John Smith"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-900 focus:border-transparent text-gray-900 placeholder-gray-400"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-transparent text-gray-900 placeholder-gray-400"
                   />
                 </div>
                 <div>
@@ -72,7 +72,7 @@ export default function EnquiryForm() {
                     name="email"
                     required
                     placeholder="john@example.com"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-900 focus:border-transparent text-gray-900 placeholder-gray-400"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-transparent text-gray-900 placeholder-gray-400"
                   />
                 </div>
               </div>
@@ -87,7 +87,7 @@ export default function EnquiryForm() {
                     name="phone"
                     required
                     placeholder="+44 7700 000000"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-900 focus:border-transparent text-gray-900 placeholder-gray-400"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-transparent text-gray-900 placeholder-gray-400"
                   />
                 </div>
                 <div>
@@ -97,7 +97,7 @@ export default function EnquiryForm() {
                   <select
                     name="properties"
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-900 focus:border-transparent text-gray-900 bg-white"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-transparent text-gray-900 bg-white"
                   >
                     <option value="">Select...</option>
                     <option value="1">1 property</option>
@@ -116,14 +116,14 @@ export default function EnquiryForm() {
                   name="message"
                   rows={4}
                   placeholder="Where are they based, how many bedrooms, how often do guests check in/out?"
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-900 focus:border-transparent text-gray-900 placeholder-gray-400 resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-transparent text-gray-900 placeholder-gray-400 resize-none"
                 />
               </div>
 
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-green-900 text-white py-4 rounded-xl font-bold text-lg hover:bg-green-800 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-green-900/20"
+                className="w-full bg-navy-900 text-white py-4 rounded-xl font-bold text-lg hover:bg-navy-800 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-navy-900/20"
               >
                 {loading ? "Sending..." : "Get My Free Quote →"}
               </button>
